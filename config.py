@@ -39,13 +39,13 @@ LLM_TEMPERATURE = 0
 # ====================================
 # EMBEDDINGS
 # ====================================
-EMBEDDING_MODEL = "models/embedding-001"
+EMBEDDING_MODEL = "models/text-embedding-004"  # Ya lo tienes
 
 # ====================================
 # RAG CONFIG
 # ====================================
-CHUNK_SIZE = 1000
-CHUNK_OVERLAP = 200
+CHUNK_SIZE = 5000      # Chunks EXTRA grandes
+CHUNK_OVERLAP = 1000   # Overlap grande
 RETRIEVER_K = 3  # Número de fragmentos a recuperar
 
 # ====================================
